@@ -4,7 +4,7 @@
   "description": "A nodeJS backend made with Express for learning purpose",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node_modules/.bin/semistandard --fix && node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jose Miguel Gallas Olmedo",
@@ -14,5 +14,8 @@
   },
   "engines": {
     "node": "7.1.0"
+  },
+  "devDependencies": {
+    "semistandard": "^9.2.1"
   }
 }
