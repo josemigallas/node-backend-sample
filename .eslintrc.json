@@ -1,6 +1,7 @@
 {
   "extends": "semistandard",
   "rules": {
+    "esversion": 6,
     "prefer-const": "error",
     "block-scoped-var": "error",
     "no-use-before-define": [
